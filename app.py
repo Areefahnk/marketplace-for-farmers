@@ -8,10 +8,6 @@ import requests as reqs
 
 app = Flask(__name__) #configuring the server
 
-model=pickle.load(open('model/crop_model.pkl','rb')) #crop recommendation model
-
-
-fertilizer_clf=pickle.load(open('model/fertilizer_model.pkl','rb'))
 
 
 import pandas as pd
